@@ -1,0 +1,51 @@
+/* Center everything on the page */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the container card */
+#card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 320px;
+}
+
+/* Style the input and button */
+input, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Success and Error classes (applied by JS) */
+.success {
+    color: #28a745;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.error {
+    color: #dc3545;
+    margin-top: 20px;
+    font-weight: bold;
+}
